@@ -1,6 +1,6 @@
 # papers
 
-Supplementary code and data for published and preprint work. Each subfolder corresponds to one publication.
+Supplementary material for published and preprint work. Each subfolder corresponds to one publication and links to the relevant project in [`projects/`](../projects/) when code is available.
 
 ## Index
 
@@ -12,8 +12,8 @@ Supplementary code and data for published and preprint work. Each subfolder corr
 ## Naming convention
 
 Subfolders follow the pattern `YEAR-short-title/` and contain:
-- `README.md` — what the code does and how to run it
-- Source scripts (MATLAB, Python, or Mathematica)
-- Any small data files needed to reproduce figures
+- `README.md` — reference, abstract summary, and link to project folder if applicable
+- Small data files needed to reproduce figures
+- Scripts that are too paper-specific to belong in a standalone project
 
-Raw experimental data is archived separately on Zenodo and linked from each subfolder README.
+Raw experimental data is archived on Zenodo and linked from each subfolder README.

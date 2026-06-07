@@ -4,7 +4,7 @@ Research-grade LaTeX structures used in my own papers, posters, and presentation
 
 ## Structure
 
-```
+```text
 latex-templates/
 ├── figures/        # Standalone TikZ and PGFPlots figures
 ├── beamer/         # Presentation themes and slide templates
@@ -13,9 +13,15 @@ latex-templates/
 
 ## Compilation
 
-Figures are compiled with XeLaTeX and exported to PDF, then converted to PNG at 150 DPI via macOS Preview. Aspect ratios: 4:3 for slides, 1:1 for standalone figures.
+Figures are written for XeLaTeX, which is required to load the New Computer Modern font via `fontspec` and `fontsetup`:
 
-## Dependencies
+```bash
+xelatex figure.tex
+```
 
-- LaTeX distribution with XeLaTeX
-- TikZ, PGFPlots, siunitx, physics
+They can also be compiled with pdfLaTeX — just comment out the two font packages at the top of the file:
+
+```tex
+% \usepackage{fontspec}
+% \usepackage[default]{fontsetup}
+```
