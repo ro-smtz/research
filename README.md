@@ -16,7 +16,9 @@ The repository functions both as a research portfolio and as a long-term archive
 
 ## Current research
 
-My doctoral research at the Advanced Nanophotonics Laboratory focuses on polaritonic lasers in plasmonic microresonators. These systems operate in the strong-coupling regime, where photons and excitons hybridize into polaritons with engineered optical properties.
+I am a PhD Candidate in Physics at the Advanced Nanophotonics Laboratory, Instituto de Física, UNAM.
+
+My doctoral research focuses on polaritonic lasers in plasmonic microresonators. These systems operate in the strong-coupling regime, where photons and excitons hybridize into polaritons with engineered optical properties.
 
 Current interests include:
 
@@ -28,7 +30,13 @@ Current interests include:
 - Plasmonic crystals
 - Optical characterization of nanostructures
 
-**Previous work:** quantum chemistry (Richardson-Gaudin methods) · classical mechanics · geodesic motion
+### Previous research interests
+
+- Quantum chemistry and Richardson–Gaudin methods
+- Classical and celestial mechanics
+- Geodesic motion in curved spaces
+- Semiconductor physics
+- Scientific computing and numerical methods
 
 ## Related
 
