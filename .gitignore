@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Texpad
+.texpadtmp/
+
+# LaTeX
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Python
+__pycache__/
+*.pyc
+
+# MATLAB
+*.asv
