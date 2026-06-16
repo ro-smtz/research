@@ -1,17 +1,17 @@
 # Spectroscopy Notes
 
-A collection of graduate-level notes on optical spectroscopy, written from the perspective of an experimental condensed matter physicist.
+A collection of graduate-level notes on optical spectroscopy, written from the perspective of an experimental condensed matter physicist working in strong light–matter interaction and ultrafast optics.
 
 These notes aim to develop a unified understanding of how light interacts with matter across a wide range of systems, with particular emphasis on molecules and crystalline solids. Rather than treating spectroscopic techniques as isolated subjects, the project focuses on the common physical principles underlying absorption, emission, and scattering processes, and on how different experimental methods reveal complementary information about the electronic, vibrational, and optical properties of matter.
 
 The intended audience is graduate students, experimental researchers entering the field of spectroscopy, and future versions of the author who may need a concise but rigorous reference.
 
-The level of presentation is primarily graduate-level physics. Most derivations are based on electromagnetic theory, quantum mechanics, and time-dependent perturbation theory. More advanced formalisms, including density matrices and response functions, may be introduced when they provide significant physical insight or simplify the description of experimental observables.
+The level of presentation is primarily graduate-level physics. Most derivations are based on electromagnetic theory, quantum mechanics, and time-dependent perturbation theory. More advanced formalisms — including density matrices, response functions, and nonlinear polarization — are introduced where they provide significant physical insight or directly connect to experimental observables.
 
 A recurring theme throughout the notes is the comparison between molecular and crystalline systems:
 
 | Molecules | Crystalline Solids |
-|------------|------------|
+|---|---|
 | Discrete electronic levels | Electronic bands |
 | Molecular orbitals | Bloch states |
 | Point-group symmetry | Space-group symmetry |
@@ -28,15 +28,11 @@ The ultimate goal is to connect theoretical concepts, experimental techniques, a
 
 ### 01. Electromagnetic Radiation
 
-Topics:
-
 - Maxwell equations and electromagnetic waves
-- Plane-wave solutions
-- Polarization
-- Energy and momentum of light
-- Photon description
+- Plane-wave solutions and polarization
+- Energy, momentum, and photon description
 - Spectral units and conversions
-- Optical constants
+- Optical constants: *n*, *κ*, ε₁, ε₂
 
 ---
 
@@ -44,18 +40,13 @@ Topics:
 
 #### Molecular Systems
 
-- Atomic orbitals
-- Molecular orbitals
-- Electronic states
-- Vibrational states
-- Rotational states
+- Atomic and molecular orbitals
+- Electronic, vibrational, and rotational states
 - Franck–Condon principle
 
 #### Crystalline Systems
 
-- Periodic potentials
-- Bloch theorem
-- Electronic bands
+- Bloch theorem and electronic bands
 - Excitons
 - Phonons
 - Symmetry considerations
@@ -64,17 +55,13 @@ Topics:
 
 ### 03. Light–Matter Interaction
 
-Topics:
-
-- Interaction Hamiltonian
-- Electric dipole approximation
-- Transition matrix elements
-- Selection rules
-- Time-dependent perturbation theory
-- Fermi's Golden Rule
-- Absorption
-- Emission
-- Scattering
+- Interaction Hamiltonian and electric dipole approximation
+- Transition matrix elements and selection rules
+- Time-dependent perturbation theory and Fermi's Golden Rule
+- Absorption, emission, and scattering
+- Linear susceptibility χ⁽¹⁾ and the dielectric function
+- Kramers–Kronig relations
+- Connection to macroscopic observables
 
 This chapter serves as the theoretical foundation for the remainder of the notes.
 
@@ -84,131 +71,115 @@ This chapter serves as the theoretical foundation for the remainder of the notes
 
 ### 04. Absorption Spectroscopy
 
-Topics:
-
-- Absorption coefficient
-- Beer–Lambert law
+- Absorption coefficient and Beer–Lambert law
 - Oscillator strengths
-- Electronic transitions
+- Lineshape theory: homogeneous vs. inhomogeneous broadening, Voigt profiles, dephasing
 - Molecular absorption spectra
 - Band-edge absorption in semiconductors
 - Excitonic absorption
 
 ---
 
-### 05. Vibrational Spectroscopy
+### 05. Emission Spectroscopy
 
-Topics:
+- Spontaneous emission and Einstein coefficients
+- Photoluminescence: mechanism and observables
+- Stokes shift and relaxation dynamics
+- Excitonic emission
+- Time-resolved photoluminescence
+- Relationship between absorption and emission (Strickler–Berg)
 
-- Harmonic oscillator
-- Normal modes
-- Molecular vibrations
-- Crystal vibrations
-- Phonons
-- Vibrational selection rules
+---
+
+### 06. Vibrational Spectroscopy
+
+- Harmonic oscillator and normal modes
+- Molecular and crystal vibrations; phonons
 
 #### Infrared Spectroscopy
 
 - Dipole-moment selection rules
-- Molecular infrared spectra
-- Optical phonons
+- Molecular infrared spectra and optical phonons
 
 #### Raman Spectroscopy
 
-- Polarizability tensor
-- Raman selection rules
+- Polarizability tensor and Raman selection rules
 - Stokes and anti-Stokes scattering
 - Crystal symmetry and Raman activity
+- Kramers–Heisenberg formalism and resonant Raman scattering
 
 ---
 
-### 06. Scattering Spectroscopy
+### 07. Nonlinear and Ultrafast Spectroscopy
 
-Topics:
+#### Theoretical Framework
 
-- Rayleigh scattering
-- Raman scattering
-- Resonant Raman scattering
-- Classical description
-- Quantum-mechanical description
-- Kramers–Heisenberg formalism
+- Density matrix and optical Bloch equations
+- Coherent vs. incoherent dynamics; T₁ and T₂
+- Nonlinear polarization: χ⁽²⁾ and χ⁽³⁾
+- Perturbative expansion and Feynman diagrams
+- Free induction decay and photon echoes
+
+#### Experimental Techniques
+
+- Ultrashort pulse generation and characterization
+- Pump–probe and transient absorption
+- Four-wave mixing
+- Two-dimensional optical spectroscopy (2DCS/2DES)
+- White-light continuum generation
 
 ---
 
 ## Part III — Experimental Methods
 
-### 07. UV–Visible Spectroscopy
+### 08. UV–Visible Spectroscopy
 
-Topics:
-
-- Sources
-- Monochromators
-- Spectrometers
-- Detectors
-- Transmission and reflection measurements
+- Sources, monochromators, spectrometers, and detectors
+- Transmission, reflection, and ellipsometry measurements
+- Reflectance and Kramers–Kronig extraction of optical constants
 - Practical considerations and artifacts
 
 ---
 
-### 08. Raman Spectroscopy Instrumentation
+### 09. Raman Spectroscopy Instrumentation
 
-Topics:
-
-- Lasers
-- Filters
-- Spectrographs
-- CCD detectors
+- Lasers, filters, spectrographs, and CCD detectors
 - Calibration procedures
-- Fluorescence backgrounds
-- Spectral resolution
+- Fluorescence backgrounds and spectral resolution
 - Experimental best practices
 
 ---
 
-### 09. Fourier-Transform Infrared Spectroscopy
+### 10. Fourier-Transform Infrared Spectroscopy
 
-Topics:
-
-- Michelson interferometer
-- Interferograms
+- Michelson interferometer and interferograms
 - Fourier reconstruction
-- Spectral resolution
-- Apodization
+- Spectral resolution and apodization
 
 ---
 
-## Part IV — Fourier and Momentum-Space Optics
+## Part IV — Fourier and Momentum-Space Methods
 
-### 10. Fourier Optics
+### 11. Fourier Optics
 
-Topics:
-
-- Spatial frequencies
-- Fourier transforms in optics
-- Diffraction
-- Lenses as Fourier transformers
+- Spatial frequencies and Fourier transforms in optics
+- Diffraction and lenses as Fourier transformers
 - Imaging systems
 
 ---
 
-### 11. Fourier Microscopy
+### 12. Fourier Microscopy
 
-Topics:
-
-- Back focal plane imaging
-- Numerical aperture
-- Momentum-space imaging
-- k-space mapping
+- Back focal plane imaging and numerical aperture
+- Momentum-space imaging and k-space mapping
 - Experimental implementations
 
 ---
 
-### 12. Angle-Resolved Optical Spectroscopy
-
-Topics:
+### 13. Angle-Resolved Optical Spectroscopy
 
 - Dispersion measurements
-- Exciton-polaritons
+- Exciton-polaritons and strong coupling
 - Angular emission spectroscopy
 - Momentum-resolved optical characterization
 
@@ -238,3 +209,11 @@ Short practical notes covering common procedures, calibration methods, troublesh
 ## Status
 
 These notes are actively developed and will evolve over time. Individual chapters may be expanded, reorganized, or split into separate documents as the project grows.
+
+---
+
+## About the Author
+
+**Rodrigo Sánchez-Martínez** is a PhD candidate in Physics at the [Instituto de Física, UNAM](https://www.fisica.unam.mx/) (Mexico City), working in the group of Dr. Giuseppe Pirruccio. His research focuses on polaritonic lasers in microresonators, at the intersection of strong light–matter coupling and ultrafast optical spectroscopy.
+
+He is also the founder of [**Ars Mathematica**](https://ro-smtz.github.io/ars-mathematica) (@ars_mathematica), a scientific visualization and education project dedicated to making advanced physics and mathematics visually accessible.
