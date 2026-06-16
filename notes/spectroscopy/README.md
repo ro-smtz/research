@@ -1,4 +1,4 @@
-### Spectroscopy Notes
+# Spectroscopy Notes
 
 A collection of graduate-level notes on optical spectroscopy,
 written from the perspective of an experimental condensed matter physicist.
@@ -7,7 +7,7 @@ The notes emphasize the common physical principles behind
 UV-Vis, infrared, Raman, and momentum-space spectroscopies,
 while drawing parallels between molecular and crystalline systems.
 
-# Contents
+## Contents
 
 1. Electromagnetic Radiation
 2. Quantum States of Matter
@@ -21,6 +21,6 @@ while drawing parallels between molecular and crystalline systems.
 10. Fourier Optics
 11. Fourier Microscopy
 
-Status
+### Status
 
 These notes are actively developed and may evolve over time.
