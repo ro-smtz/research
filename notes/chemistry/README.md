@@ -15,19 +15,20 @@ The collection is intended to grow over time, gradually becoming a comprehensive
 An introduction to the electronic structure of matter and the physical origin of chemical bonds. This chapter comes first because it provides the conceptual machinery — orbitals, valence, electronegativity — that later explains *why* nomenclature, geometry, and reactivity look the way they do, rather than treating them as arbitrary rules to memorize.
 
 **Table of contents**
-1.1 Electronic structure of the atom
-1.2 Quantum numbers and atomic orbitals
-1.3 Electron configuration and the periodic table
-1.4 Periodic trends (atomic radius, ionization energy, electron affinity, electronegativity)
-1.5 Ionic bonding
-1.6 Covalent bonding
-1.7 Coordinate (dative) bonding
-1.8 Metallic bonding
-1.9 Bond polarity and electronegativity difference
-1.10 Hybridization (sp, sp², sp³ and beyond)
-1.11 Molecular orbital theory (qualitative introduction)
-1.12 Intermolecular forces (van der Waals, dipole–dipole, hydrogen bonding)
-1.13 Bond energy, bond length, and bond order
+
+- Electronic structure of the atom
+- Quantum numbers and atomic orbitals
+- Electron configuration and the periodic table
+- Periodic trends (atomic radius, ionization energy, electron affinity, electronegativity)
+- Ionic bonding
+- Covalent bonding
+- Coordinate (dative) bonding
+- Metallic bonding
+- Bond polarity and electronegativity difference
+- Hybridization (sp, sp², sp³ and beyond)
+- Molecular orbital theory (qualitative introduction)
+- Intermolecular forces (van der Waals, dipole–dipole, hydrogen bonding)
+- Bond energy, bond length, and bond order
 
 *Representative examples to include:* ionic bonding in sodium chloride; covalent and coordinate bonding in transition-metal complexes; metallic bonding in copper and silver; hybridization in methane, ethylene, and benzene; hydrogen bonding in water and DMSO; van der Waals interactions relevant to layered and van der Waals materials.
 
@@ -38,22 +39,23 @@ An introduction to the electronic structure of matter and the physical origin of
 The vocabulary of chemistry: how compounds are represented, classified, and named. Since this chapter follows bonding, naming conventions (oxidation states, ionic vs. covalent naming, prefixes) can be explained rather than stated as convention. This chapter is meant to be treated generously — as general chemist culture, not only what is strictly needed for physics — so it should be as exhaustive as reasonably possible.
 
 **Table of contents**
-2.1 Elements and chemical symbols
-2.2 Chemical formulas (empirical, molecular, structural, condensed)
-2.3 Oxidation numbers and oxidation states
-2.4 Chemical species: atoms, molecules, ions, radicals
-2.5 Inorganic nomenclature
-&nbsp;&nbsp;&nbsp;2.5.1 Binary compounds
-&nbsp;&nbsp;&nbsp;2.5.2 Acids and their salts
-&nbsp;&nbsp;&nbsp;2.5.3 Oxides, hydroxides, and peroxides
-&nbsp;&nbsp;&nbsp;2.5.4 Coordination compounds nomenclature
-2.6 Organic nomenclature
-&nbsp;&nbsp;&nbsp;2.6.1 Alkanes, alkenes, and alkynes
-&nbsp;&nbsp;&nbsp;2.6.2 Functional groups and their suffixes/prefixes
-&nbsp;&nbsp;&nbsp;2.6.3 Aromatic compounds
-&nbsp;&nbsp;&nbsp;2.6.4 Common and trivial names vs. IUPAC names
-2.7 Common laboratory compounds and solvents
-2.8 Chemical classification (acids, bases, salts, oxides, organic/inorganic)
+
+- Elements and chemical symbols
+- Chemical formulas (empirical, molecular, structural, condensed)
+- Oxidation numbers and oxidation states
+- Chemical species: atoms, molecules, ions, radicals
+- Inorganic nomenclature
+  - Binary compounds
+  - Acids and their salts
+  - Oxides, hydroxides, and peroxides
+  - Coordination compounds nomenclature
+- Organic nomenclature
+  - Alkanes, alkenes, and alkynes
+  - Functional groups and their suffixes/prefixes
+  - Aromatic compounds
+  - Common and trivial names vs. IUPAC names
+- Common laboratory compounds and solvents
+- Chemical classification (acids, bases, salts, oxides, organic/inorganic)
 
 *Representative examples to include:* sodium chloride, titanium dioxide, copper sulfate, silver nitrate, potassium permanganate; ethanol, acetone, benzene, toluene, chloroform, dimethyl sulfoxide (DMSO), tetrahydrofuran (THF); carboxylic acids, amines, and ketones as functional-group examples; a worked comparison of trivial vs. IUPAC naming for a handful of common lab solvents.
 
@@ -64,15 +66,16 @@ The vocabulary of chemistry: how compounds are represented, classified, and name
 The quantitative language of chemical reactions.
 
 **Table of contents**
-3.1 Chemical equations and their interpretation
-3.2 Conservation of mass
-3.3 Balancing chemical equations
-3.4 Types of reactions (synthesis, decomposition, displacement, combustion, redox)
-3.5 The mole concept and Avogadro's number
-3.6 Stoichiometric coefficients and mole ratios
-3.7 Limiting reagents
-3.8 Theoretical, actual, and percent yield
-3.9 Reaction stoichiometry in solution
+
+- Chemical equations and their interpretation
+- Conservation of mass
+- Balancing chemical equations
+- Types of reactions (synthesis, decomposition, displacement, combustion, redox)
+- The mole concept and Avogadro's number
+- Stoichiometric coefficients and mole ratios
+- Limiting reagents
+- Theoretical, actual, and percent yield
+- Reaction stoichiometry in solution
 
 *Representative examples to include:* reagent preparation for precursor synthesis; stoichiometric calculations relevant to perovskite and metal-oxide synthesis routes encountered in the lab.
 
@@ -83,14 +86,15 @@ The quantitative language of chemical reactions.
 The geometry, polarity, and symmetry of individual molecules.
 
 **Table of contents**
-4.1 Lewis structures (review)
-4.2 Formal charge and resonance
-4.3 VSEPR theory
-4.4 Molecular geometry and bond angles
-4.5 Molecular polarity and dipole moments
-4.6 Symmetry elements and symmetry operations
-4.7 Molecular point groups
-4.8 Connection between hybridization and molecular geometry
+
+- Lewis structures (review)
+- Formal charge and resonance
+- VSEPR theory
+- Molecular geometry and bond angles
+- Molecular polarity and dipole moments
+- Symmetry elements and symmetry operations
+- Molecular point groups
+- Connection between hybridization and molecular geometry
 
 *Representative examples to include:* water, ammonia, methane, carbon dioxide, benzene, and a few coordination complexes to illustrate point-group assignment.
 
@@ -101,15 +105,15 @@ The geometry, polarity, and symmetry of individual molecules.
 An introduction to the geometry and symmetry of crystalline solids, of direct relevance to materials science and solid-state photonics.
 
 **Table of contents**
-5.1 Periodicity and the crystal lattice
-5.2 Unit cells and lattice parameters
-5.3 Bravais lattices
-5.4 Crystal systems and crystal classes
-5.5 Symmetry operations in crystals (point and space symmetry)
-5.6 Space-group notation (introductory, scoped to common photonic materials)
-5.7 Miller indices and crystal planes
-5.8 Coordination number and packing in simple structures
-5.9 Introduction to defects and non-ideal crystals (brief)
+
+- Periodicity and the crystal lattice
+- Unit cells and lattice parameters
+- Bravais lattices
+- Crystal systems and crystal classes
+- Symmetry operations in crystals (point and space symmetry)
+- Space-group notation (introductory, scoped to common photonic materials)
+- Miller indices and crystal planes
+- Coordination number and packing in simple structures
 
 *Representative examples to include:* sodium chloride (rock-salt structure), silicon (diamond cubic), quartz, and perovskite structures (including CsPbBr₃-type compounds), used to connect crystal symmetry to the solid-state materials encountered in experimental work.
 
@@ -120,16 +124,17 @@ An introduction to the geometry and symmetry of crystalline solids, of direct re
 The quantitative chemistry most frequently encountered in the laboratory.
 
 **Table of contents**
-6.1 Solutes, solvents, and solubility
-6.2 Density and its role in solution preparation
-6.3 Molarity
-6.4 Molality
-6.5 Mole fraction
-6.6 Mass and volume percentages
-6.7 Parts per million (ppm) and parts per billion (ppb)
-6.8 Dilutions and the dilution equation
-6.9 Serial dilutions
-6.10 Practical considerations in preparing laboratory solutions
+
+- Solutes, solvents, and solubility
+- Density and its role in solution preparation
+- Molarity
+- Molality
+- Mole fraction
+- Mass and volume percentages
+- Parts per million (ppm) and parts per billion (ppb)
+- Dilutions and the dilution equation
+- Serial dilutions
+- Practical considerations in preparing laboratory solutions
 
 *Representative examples to include:* preparing precursor solutions at specified molarity, converting between concentration units for reagent labels, and designing a serial dilution scheme for a calibration curve.
 
