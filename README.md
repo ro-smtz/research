@@ -1,18 +1,19 @@
 # research
 
-This repository serves as a curated archive of research code, computational projects, scientific notes, and LaTeX resources developed throughout my academic career.
+This repository is a curated archive of research code, scientific notes, computational projects, publication supplements, and LaTeX resources developed throughout my academic career.
 
-Its primary focus is the study of strong light–matter interaction, nanophotonics, and polariton physics, while also preserving projects in theoretical mechanics, quantum chemistry, semiconductor physics, and scientific computing.
+Its primary focus is strong light–matter interaction, nanophotonics, and polariton physics, while also preserving work in theoretical mechanics, quantum chemistry, semiconductor physics, and scientific computing.
 
-The repository functions both as a research portfolio and as a long-term archive of tools, calculations, and supplementary material associated with my publications and ongoing work.
+Beyond serving as a portfolio of my research, this repository is intended as a long-term, reproducible archive of calculations, technical notes, software, and resources supporting both completed publications and ongoing projects.
 
 ## Contents
 
 | Folder | Description |
 |--------|-------------|
-| [`projects/`](./projects/) | Computational and theoretical projects — each self-contained with code, notes, and references |
-| [`papers/`](./papers/) | Supplementary material for published and preprint work |
-| [`latex-templates/`](./latex-templates/) | Research-grade LaTeX and TikZ structures used in papers and presentations |
+| [`notes/`](notes/) | Research notes, literature summaries, derivations, lecture material, and technical documentation developed throughout my PhD and research projects. |
+| [`projects/`](projects/) | Self-contained computational and theoretical projects, including code, simulations, notebooks, and references. |
+| [`papers/`](papers/) | Figures, source files, supplementary material, and reproducible resources accompanying publications and preprints. |
+| [`latex-templates/`](latex-templates/) | Reusable LaTeX, TikZ, and PGFPlots templates for research articles, presentations, posters, and scientific figures. |
 
 ## Current research
 
