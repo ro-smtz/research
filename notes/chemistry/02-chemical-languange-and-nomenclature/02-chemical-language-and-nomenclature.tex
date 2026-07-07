@@ -1,0 +1,175 @@
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage[
+	a4paper,
+	left = 2cm,
+	right = 2cm,
+	bottom = 1cm, includefoot,
+	top = 1.2cm, includehead,
+]{geometry}
+
+\usepackage{amsmath,amssymb,amsfonts}
+\RequirePackage{physics}
+\usepackage{siunitx}
+\usepackage[version=4]{mhchem}
+\usepackage{chemfig}
+\AtBeginDocument{\RenewCommandCopy\qty\SI}
+\NewDocumentCommand{\chem}{m}{\ce{#1}}
+
+\usepackage{enumitem}
+\usepackage{booktabs}
+
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+
+\usepackage{xcolor}
+\usepackage[most]{tcolorbox}
+\tcbuselibrary{breakable,skins}
+
+\newtcolorbox{concept}[1][]{
+	colback   = white,
+	colframe  = gray!50,
+	fonttitle = \small,
+	enhanced,
+	boxed title style = {
+		colback  = white,
+		colframe = white,
+		boxrule  = 0pt,
+		left     = 0.2em,
+		right    = 0.1em,
+	},
+	breakable,
+	boxrule = 0.5pt,
+	left    = 6pt,
+	right   = 6pt,
+	sharp corners,
+}
+
+\newtcolorbox{phys-note}[1][]{
+	colback   = white,
+	breakable,
+	boxrule = 0pt,
+	left    = 6pt,
+	right   = 6pt,
+	top     = 0pt,
+	bottom  = 0pt,
+	sharp corners,
+	enhanced, 
+	borderline north = {0pt}{0pt}{white},
+	borderline south = {0pt}{0pt}{white},
+	borderline east  = {0pt}{0pt}{white},
+	borderline west  = {1pt}{0pt}{black},
+}
+
+\newtcolorbox{workedexample}[1][]{
+	colback   = white,
+	fonttitle =\bfseries,
+	colframe  = white,
+	title     = {Worked Example{#1}},
+	coltitle  = black,
+	colbacktitle = white,
+	attach boxed title to top left = {
+		xshift = -3mm,
+	},
+	breakable,
+	boxrule = 0pt,
+	left    = 4mm,
+	right   = 0pt,
+	top     = 0pt,
+	bottom  = 0pt,
+	sharp corners,
+	enhanced, 
+}
+
+\usepackage{hyperref}
+
+\title{\textbf{02 -- Chemical Language and Nomenclature}}
+\author{Rodrigo Sánchez-Martínez}
+\date{\today}
+
+% --
+\begin{document}
+	
+\maketitle	
+	
+%.
+\tableofcontents
+
+\section{Elements and Chemical Symbols}
+
+	\subsection{The periodic table}
+
+	\begin{concept}
+		An \emph{element} is a substance whose atoms all share the same number of protons.
+		The periodic table orders elements by increasing atomic number $Z$, arranged so that elements with similar valence configurations fall in the same column (group).
+	\end{concept}
+
+	\begin{phys-note}
+		The recurring chemical behavior down a group is a direct consequence of the shell structure derived in Chapter~01:
+		elements in the same group share the same valence electron configuration (e.g.\ $n\mathrm{s^1}$ for the alkali metals), so periodic trends in atomic radius, ionization energy, and electronegativity are simply different faces of the same underlying orbital filling pattern ($\mathrm{1s},\,\mathrm{2s},\,\mathrm{2p},\,\mathrm{3s},\,\dots$) dictated by the Aufbau principle and the Pauli exclusion principle.
+	\end{phys-note}
+	
+	\subsection{Atomic number}
+
+	\begin{concept}
+		The \emph{atomic number} $Z$ is the number of protons in the nucleus.
+		It uniquely identifies the element and equals the number of electrons in a neutral atom.
+	\end{concept}
+
+	\begin{phys-note}
+		The electronic structure of an atom follows from the nuclear charge $+Ze$ acting on the electrons through the Coulomb potential
+		\begin{equation}
+			V(r) = -\frac{Ze^{2}}{4\pi\varepsilon_0 r},
+		\end{equation}
+		which enters the electronic Schrödinger equation discussed in Chapter~1.
+		Changing $Z$ changes the element; changing the electron count while $Z$ is fixed only changes the ionization state.
+	\end{phys-note}
+	
+	\subsection{Atomic mass}
+
+	\begin{concept}
+		The \emph{atomic mass unit} (u, or dalton, Da) is defined as $1/12$ the mass of a $^{12}\mathrm{C}$ atom:
+		\begin{equation}
+			\SI{1}{u} = \frac{1}{12}\, m(^{12}\mathrm{C}) \approx \SI{1.6605e-27}{kg}.
+		\end{equation}
+		The \emph{atomic mass} (or relative atomic mass, $A_r$) listed on the periodic table is the isotopic-abundance-weighted average
+		\begin{equation}
+			A_r = \sum_i f_i\, m_i,
+		\end{equation}
+		where $f_i$ is the natural fractional abundance of isotope $i$ and $m_i$ its isotopic mass in u.
+	\end{concept}
+	
+	\begin{workedexample}[: average atomic mass of chlorine]
+		Chlorine occurs naturally as $^{35}\mathrm{Cl}$ ($m = \SI{34.969}{u}$, ${f = 0.7576}$) and $^{37}\mathrm{Cl}$ ($m = \SI{36.966}{u}$, ${f = 0.2424}$). Then
+		\begin{equation}
+			A_r(\mathrm{Cl}) = (0.7576)(34.969) + (0.2424)(36.966) = 35.45\ \mathrm{u},
+		\end{equation}
+		matching the tabulated value. Note that no single chlorine atom actually has this mass -- it is a statistical average over the isotopic population.
+	\end{workedexample}
+	
+	\subsection{Chemical symbols}
+
+	\begin{concept}
+		Each element is denoted by a one- or two-letter symbol (e.g.\ H, He, Na, Fe), standardized by IUPAC.
+		Many symbols derive from Latin or Greek names (Na from \textit{natrium}, Fe from \textit{ferrum}, W from \textit{wolfram}) rather than the modern English name.
+	\end{concept}
+	
+	\subsection{Isotopic notation}
+
+	\begin{concept}
+		Isotopes of an element share the same $Z$ but differ in neutron number $N$, hence in mass number
+		\begin{equation}
+			A = Z + N.
+		\end{equation}
+		The standard notation is
+		\begin{equation}
+			\chem{^{$A$}_{$Z$}X}
+		\end{equation}
+		e.g.\ \chem{^2_1H} (deuterium) or \chem{^13_6C}.
+	\end{concept}
+	
+
+\end{document}
