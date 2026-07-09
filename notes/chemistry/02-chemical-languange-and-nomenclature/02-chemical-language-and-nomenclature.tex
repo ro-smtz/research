@@ -64,11 +64,11 @@
 	borderline west  = {1pt}{0pt}{black},
 }
 
-\newtcolorbox{workedexample}[1][]{
+\newtcolorbox[auto counter, number within=section]{workedexample}[1][]{
 	colback   = white,
-	fonttitle =\bfseries,
+	fonttitle = \bfseries,
 	colframe  = white,
-	title     = {Worked Example{#1}},
+	title     = {Worked Example~\thetcbcounter#1},
 	coltitle  = black,
 	colbacktitle = white,
 	attach boxed title to top left = {
@@ -81,7 +81,7 @@
 	top     = 0pt,
 	bottom  = 0pt,
 	sharp corners,
-	enhanced, 
+	enhanced,
 }
 
 \usepackage{hyperref}
@@ -100,6 +100,7 @@
 
 \section{Elements and Chemical Symbols}
 
+	% --
 	\subsection{The periodic table}
 
 	\begin{concept}
@@ -143,9 +144,9 @@
 	\end{concept}
 	
 	\begin{workedexample}[: average atomic mass of chlorine]
-		Chlorine occurs naturally as $^{35}\mathrm{Cl}$ ($m = \SI{34.969}{u}$, ${f = 0.7576}$) and $^{37}\mathrm{Cl}$ ($m = \SI{36.966}{u}$, ${f = 0.2424}$). Then
+		Chlorine occurs naturally as \chem{^35Cl} ($m = \SI{34.969}{u}$, ${f = 0.7576}$) and \chem{^37Cl} ($m = \SI{36.966}{u}$, ${f = 0.2424}$). Then
 		\begin{equation}
-			A_r(\mathrm{Cl}) = (0.7576)(34.969) + (0.2424)(36.966) = 35.45\ \mathrm{u},
+			A_r(\mathrm{Cl}) = (0.7576)(34.969) + (0.2424)(36.966) = \SI{35.45}{u},
 		\end{equation}
 		matching the tabulated value. Note that no single chlorine atom actually has this mass -- it is a statistical average over the isotopic population.
 	\end{workedexample}
@@ -171,5 +172,24 @@
 		e.g.\ \chem{^2_1H} (deuterium) or \chem{^13_6C}.
 	\end{concept}
 	
+	% --
+	\section{Chemical Formulas}
+
+	\subsection{Empirical formula}
+	
+	\begin{concept}
+		The \emph{empirical formula} gives the simplest whole-number ratio of atoms of each element in a compound.
+		It is obtained by dividing the moles of each element by the smallest mole value among them.
+	\end{concept}
+
+	\begin{workedexample}[: Empirical formula from mass composition]
+		A compound is found to contain 40.0\% C, 6.7\% H, and 53.3\% O by mass. Taking \SI{100}{g} as basis,
+		\begin{equation}
+			n_{\mathrm C} = \frac{40.0}{12.01} = \SI{3.33}{mol}, \qquad
+			n_{\mathrm H} = \frac{6.7}{1.008} = \SI{6.65}{mol}, \qquad
+			n_{\mathrm O} = \frac{53.3}{16.00} = \SI{3.33}{mol}.
+		\end{equation}
+		Dividing by the smallest value ($3.33$) gives the ratio $\mathrm{C}:\mathrm{H}:\mathrm{O} = 1:2:1$, so the empirical formula is \chem{CH_2O}.
+	\end{workedexample}
 
 \end{document}
